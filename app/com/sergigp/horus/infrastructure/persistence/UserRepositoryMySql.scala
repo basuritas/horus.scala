@@ -4,10 +4,8 @@ import java.util.UUID
 import javax.inject.Inject
 
 import scala.concurrent.Future
-
 import play.api.db.slick.DatabaseConfigProvider
-
-import com.sergigp.horus.domain.model.{User, UserId, UserName, UserRepository}
+import com.sergigp.horus.domain.user.{User, UserId, UserName, UserRepository}
 import slick.driver.JdbcProfile
 import slick.driver.MySQLDriver.api._
 import slick.lifted.{ProvenShape, TableQuery, Tag}

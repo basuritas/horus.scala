@@ -1,8 +1,8 @@
 package com.sergigp.horus.infrastructure
 
 import scala.concurrent.Future
-
-import com.sergigp.horus.domain.model.{User, UserId, UserName, UserRepository}
+import com.sergigp.horus.domain.model.{UserId, UserName, UserRepository}
+import com.sergigp.horus.domain.user.{User, UserId, UserName, UserRepository}
 import org.scalamock.scalatest.MockFactory
 import org.scalatest._
 import org.scalatest.concurrent.ScalaFutures

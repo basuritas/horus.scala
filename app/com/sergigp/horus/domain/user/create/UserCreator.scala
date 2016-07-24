@@ -1,12 +1,11 @@
-package com.sergigp.horus.domain.service
+package com.sergigp.horus.domain.user.create
 
 import javax.inject.Inject
 
+import com.sergigp.horus.domain.user.{User, UserId, UserName, UserRepository}
+
 import scala.concurrent.ExecutionContext.Implicits.global
-
 import scala.concurrent.Future
-
-import com.sergigp.horus.domain.model.{User, UserId, UserName, UserRepository}
 
 class UserCreator @Inject()(userRepository: UserRepository) {
 
