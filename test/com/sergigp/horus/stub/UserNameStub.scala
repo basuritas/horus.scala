@@ -1,6 +1,6 @@
 package com.sergigp.horus.stub
 
-import com.sergigp.horus.domain.model.UserName
+import com.sergigp.horus.domain.user.UserName
 import com.sergigp.horus.infrastructure.StringStub
 
 object UserNameStub {

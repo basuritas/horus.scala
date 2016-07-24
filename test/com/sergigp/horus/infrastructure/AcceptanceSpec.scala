@@ -4,14 +4,13 @@ import javax.inject.Inject
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
-
 import play.api.db.slick.DatabaseConfigProvider
 import play.api.inject.Injector
 import play.api.inject.guice.GuiceApplicationBuilder
 import play.api.libs.json.{JsObject, JsString}
 import play.api.libs.ws.{WSClient, WSResponse}
-
-import com.sergigp.horus.domain.model.{User, UserId, UserName, UserRepository}
+import com.sergigp.horus.domain.model.{UserId, UserName, UserRepository}
+import com.sergigp.horus.domain.user.{User, UserId, UserName, UserRepository}
 import org.scalatest.{BeforeAndAfterEach, Matchers, WordSpec}
 import org.scalatestplus.play.{OneServerPerSuite, WsScalaTestClient}
 

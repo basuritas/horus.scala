@@ -1,10 +1,10 @@
-package com.sergigp.horus.domain.service
+package com.sergigp.horus.domain.user.search
 
 import javax.inject.Inject
 
-import scala.concurrent.Future
+import com.sergigp.horus.domain.user.{User, UserId, UserRepository}
 
-import com.sergigp.horus.domain.model.{User, UserId, UserRepository}
+import scala.concurrent.Future
 
 class UserSearcher @Inject()(userRepository: UserRepository) {
 

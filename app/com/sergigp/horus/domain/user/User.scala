@@ -1,4 +1,4 @@
-package com.sergigp.horus.domain.model
+package com.sergigp.horus.domain.user
 
 import java.util.UUID
 

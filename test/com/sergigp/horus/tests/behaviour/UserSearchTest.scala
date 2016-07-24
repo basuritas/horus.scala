@@ -1,6 +1,6 @@
 package com.sergigp.horus.tests.behaviour
 
-import com.sergigp.horus.domain.service.UserSearcher
+import com.sergigp.horus.domain.user.search.UserSearcher
 import com.sergigp.horus.infrastructure.BehaviourTest
 import com.sergigp.horus.stub.{UserIdStub, UserStub}
 
