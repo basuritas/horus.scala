@@ -8,7 +8,6 @@ import scala.concurrent.Future
 import play.api.libs.json.{JsObject, JsString}
 import play.api.mvc.Results._
 import play.api.mvc._
-import com.sergigp.horus.domain.model.UserName
 import com.sergigp.horus.domain.user.create.UserCreator
 import com.sergigp.horus.domain.user.search.UserSearcher
 import com.sergigp.horus.domain.user.{UserId, UserName}
